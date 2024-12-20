@@ -1,0 +1,12 @@
+[init]
+	defaultBranch = main
+[user]
+	name = naveen
+	email = naveen@mail.local
+[pull]
+	rebase = true
+[alias]
+	st = status
+	l = log
+	br = branch
+	ch = checkout
