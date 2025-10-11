@@ -1,0 +1,7 @@
+{
+    "git.enabled": true,
+    "git.autorefresh": false,    
+    "git.enableSmartCommit": false,
+    "git.decorations.enabled": true,
+    "git.confirmSync": true
+}

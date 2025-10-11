@@ -1,0 +1,9 @@
+{
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.disableAutomaticTypeAcquisition": true,
+  "typescript.validate.enable": true,
+  "typescript.preferences.importModuleSpecifier": "relative",
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "telemetry.enableTelemetry": false,
+  "telemetry.enableCrashReporter": false
+}

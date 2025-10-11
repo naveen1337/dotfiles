@@ -1,0 +1,76 @@
+{
+  "vim.leader": "<space>",
+  "vim.hlsearch": true,
+  "vim.incsearch": true,
+  "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-f>": false,
+    "<C-w>": false,
+    "<C-p>": false,
+    "<C-n>": false,
+    "<C-s>": false,
+    "<C-c": false,
+    "<C-v>": false,
+    "<C-x>": false,
+    "<C-z>": false,
+    "<C-y>": false
+  },
+  "vim.useSystemClipboard": true,
+  "vim.useCtrlKeys": false,
+  "vim.overrideCopy": false,
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": [":"],
+      "after": ["workbench.action.showCommands"],
+      "silent": true
+    },
+    {
+      "before": ["<leader>", "m"],
+      "commands": ["bookmarks.toggle"]
+    },
+    {
+      "before": ["<leader>", "b"],
+      "commands": ["bookmarks.list"]
+    },
+    {
+      "before": ["<leader>", "f", "f"],
+      "commands": ["editor.fold"]
+    },
+    {
+      "before": ["<leader>", "f", "u"],
+      "commands": ["editor.unfold"]
+    },
+    {
+      "before": ["<leader>", "f", "a"],
+      "commands": ["editor.foldAll"]
+    },
+    {
+      "before": ["<leader>", "f", "o"],
+      "commands": ["editor.unfoldAll"]
+    },
+    {
+      "before": ["J"],
+      "commands": ["editor.gotoNextFold"]
+    },
+    {
+      "before": ["K"],
+      "commands": ["editor.gotoPreviousFold"]
+    },
+    {
+      "before": ["<leader>", "f", "d"],
+      "commands": ["editor.action.formatDocument"],
+      "silent": true
+    },
+    {
+      "before": ["<leader>", "f", "s"],
+      "commands": ["editor.action.formatSelection"],
+      "silent": true
+    }
+  ],
+  "vim.insertModeKeyBindingsNonRecursive": [
+    {
+      "before": ["j", "j"],
+      "after": ["<Esc>"]
+    }
+  ]
+}

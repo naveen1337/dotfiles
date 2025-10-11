@@ -1,0 +1,9 @@
+{"files.exclude": {
+    "**/node_modules": true
+},
+"search.exclude": {
+    "**/node_modules": true,
+    "__test__":true,
+    "__mocks__":true
+}
+}
