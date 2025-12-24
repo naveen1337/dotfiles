@@ -15,3 +15,6 @@ alias initvpn="openvpn3 session-start --config /home/naveen/workspace/creds/myvp
 alias killvpn="sudo pkill -9 openvpn3"
 alias rm="rm -i"
 alias runnode="node --experimental-strip-types --no-warnings index.ts"
+
+alias code='flatpak run com.visualstudio.code'
+alias subl='flatpak run com.sublimetext.three'
