@@ -18,3 +18,14 @@ alias runnode="node --experimental-strip-types --no-warnings index.ts"
 
 alias code='flatpak run com.visualstudio.code'
 alias subl='flatpak run com.sublimetext.three'
+alias npm=pnpm
+alias npx=pnpm
+alias nnpm=npm
+alias nnpx=npx
+
+
+alias rm="rm -i"
+alias runnode="node --experimental-strip-types --no-warnings index.ts"
+
+# Terminal customizations
+PS1='\[\e[32m\]\u@\h \[\e[34m\]\W\[\e[0m\] \$ '
